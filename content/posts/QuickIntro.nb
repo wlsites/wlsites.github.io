@@ -1,0 +1,31 @@
+Notebook[{Cell[BoxData[RowBox[{"\[LeftAssociation]", "\[IndentingNewLine]", 
+      RowBox[{RowBox[{"\"Title\"", "\[Rule]", 
+          "\"A (Somewhat) Quick Intro to Mathematica\""}], ",", 
+        "\[IndentingNewLine]", RowBox[{"\"Slug\"", "\[Rule]", "Automatic"}], 
+        ",", "\[IndentingNewLine]", RowBox[{"\"Link\"", "\[Rule]", 
+          "\"https://mresources.github.io/tutorial/\""}], ",", 
+        "\[IndentingNewLine]", RowBox[{"\"Date\"", "\[Rule]", 
+          TemplateBox[{RowBox[{StyleBox["\"Day: \"", FontColor -> 
+                GrayLevel[0.5], FontWeight -> Plain], "\"Sun 1 Jan 2017\""}], 
+            RowBox[{"DateObject", "[", RowBox[{RowBox[{"{", RowBox[
+                   {"2017", ",", "1", ",", "1"}], "}"}], ",", "\"Day\"", ",", 
+                "\"Gregorian\"", ",", RowBox[{"-", "5.`"}]}], "]"}]}, 
+           "DateObject", Editable -> False]}], ",", "\[IndentingNewLine]", 
+        RowBox[{"\"Tags\"", "\[Rule]", RowBox[{"{", "}"}]}], ",", 
+        "\[IndentingNewLine]", RowBox[{"\"Authors\"", "\[Rule]", 
+          RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+        RowBox[{"\"Categories\"", "\[Rule]", RowBox[{"{", "}"}]}]}], 
+      "\[IndentingNewLine]", "\[RightAssociation]"}]], "Metadata", 
+   CellChangeTimes -> {{3.7230674328716917*^9, 3.723067452190956*^9}, 
+    {3.7230679580568*^9, 3.7230680128473673*^9}, {3.742959709378993*^9, 
+    3.742959732472433*^9}, {3.764806006058413*^9, 3.764806014863674*^9}, 
+    {3.7648060503410807*^9, 3.76480605131096*^9}, {3.764806096944479*^9, 
+    3.7648060995332327*^9}, {3.7648068400661993*^9, 3.764806844184857*^9}}], 
+  Cell["A Mathematica tutorial that also gives primers on more complex tasks \
+like paclet development and working with undocumented contexts.", "Text", 
+   CellChangeTimes -> {{3.764806040282056*^9, 3.764806086045021*^9}}]}, 
+ WindowSize -> {808, 755}, WindowMargins -> {{316, Automatic}, 
+   {Automatic, 50}}, FrontEndVersion -> 
+  "11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, 2018)", 
+ StyleDefinitions -> FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", 
+   CharacterEncoding -> "UTF-8"]]
