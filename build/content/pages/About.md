@@ -1,11 +1,7 @@
-Title: About
+Title: Wolfram Language Sites
 Date: 2017-01-01 00:00:00
 Modified: 2017-01-01 00:00:00
-Slug: about
-
-<a id="wolframlanguagesites" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-
-# Wolfram Language Sites
+Slug: wolfram-language-sites
 
 This is a listing/hosting service for sites dealing with the Wolfram Language. 
 

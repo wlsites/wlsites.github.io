@@ -1,0 +1,182 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6698,        174]
+NotebookOptionsPosition[      2670,         75]
+NotebookOutlinePosition[      6560,        174]
+CellTagsIndexPosition[      6517,        171]
+WindowTitle->EasyIDE: wlsites
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"\"\<Title\>\"", "\[Rule]", "\"\<Wolfram Language Sites\>\""}], 
+   ",", "\[IndentingNewLine]", 
+   RowBox[{"\"\<Slug\>\"", "\[Rule]", "Automatic"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"\"\<Date\>\"", "\[Rule]", 
+    TemplateBox[{RowBox[{
+        StyleBox[
+        "\"Day: \"", FontColor -> GrayLevel[0.5], FontWeight -> Plain], 
+        "\"Sun 1 Jan 2017\""}],RowBox[{"DateObject", "[", 
+        RowBox[{
+          RowBox[{"{", 
+            RowBox[{"2017", ",", "1", ",", "1"}], "}"}], ",", "\"Day\"", ",", 
+          "\"Gregorian\"", ",", 
+          RowBox[{"-", "5.`"}]}], "]"}]},
+     "DateObject",
+     Editable->False]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"\"\<Modified\>\"", "->", 
+    TemplateBox[{RowBox[{
+        StyleBox[
+        "\"Day: \"", FontColor -> GrayLevel[0.5], FontWeight -> Plain], 
+        "\"Sun 1 Jan 2017\""}],RowBox[{"DateObject", "[", 
+        RowBox[{
+          RowBox[{"{", 
+            RowBox[{"2017", ",", "1", ",", "1"}], "}"}], ",", "\"Day\"", ",", 
+          "\"Gregorian\"", ",", 
+          RowBox[{"-", "5.`"}]}], "]"}]},
+     "DateObject",
+     Editable->False]}]}], "\[IndentingNewLine]", 
+  "\[RightAssociation]"}]], "Metadata",
+ CellChangeTimes->{{3.72305362352835*^9, 3.7230536242703047`*^9}, {
+   3.723068028219879*^9, 3.723068034387553*^9}, 
+   3.764807835746046*^9},ExpressionUUID->"a99e0659-0d22-4b05-ac77-\
+ea5e98988b22"],
+
+Cell["\<\
+This is a listing/hosting service for sites dealing with the Wolfram \
+Language. \
+\>", "Text",
+ CellChangeTimes->{{3.764806132068327*^9, 
+  3.7648061522617292`*^9}},ExpressionUUID->"d79a26ea-6d12-4fd5-807b-\
+f5606cf6a11d"],
+
+Cell[TextData[ButtonBox["Contribute yours today!",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://github.com/wlsites/wlsites.github.io/issues"], None},
+ ButtonNote->"https://github.com/wlsites/wlsites.github.io/issues"]], "Text",
+ CellChangeTimes->{{3.764806132068327*^9, 
+  3.764806165372617*^9}},ExpressionUUID->"7420ea25-8f9d-4fc7-9525-\
+497e38f82779"]
+},
+NotebookEventActions->{{"MenuCommand", "Save"} :> 
+  EasyIDE`Notebooks`Manipulation`IDESave[
+    EvaluationNotebook[]], PassEventsDown -> True, EvaluationOrder -> After},
+WindowSize->{808, 755},
+WindowMargins->{{236, Automatic}, {0, Automatic}},
+WindowTitle->"EasyIDE: wlsites",
+TaggingRules->{
+ "IndentCharacter" -> "  ", 
+  "EasyIDE" -> {
+   "Tabs" -> {
+     ".gitignore" -> {
+       "File" -> "/Users/Mark/Documents/GitHub/wlsites/.gitignore"}, 
+      "About" -> {
+       "File" -> 
+        "/Users/Mark/Documents/GitHub/wlsites/build/content/pages/About.nb"}},
+     "FileViewer" -> {"Visible" -> False}, 
+    "Toolbars" -> {"Column" -> GridBox[{{
+          GridBox[{{
+             PaneBox["", ImageSize -> {0, 15}], 
+             ButtonBox[
+             "", BaseStyle -> "ToolbarShowButton", ButtonData -> 
+              "Markdown"]}}, BaseStyle -> "ToolbarCell"]}}, BaseStyle -> 
+        "Toolbars"], "Tags" -> {}, "Cells" -> {}}, 
+    "Project" -> {"Directory" -> "/Users/Mark/Documents/GitHub/wlsites/"}, 
+    "ActiveTab" -> "About", "StyleSheet" -> 
+    FrontEnd`FileName[{"EasyIDE", "Extensions", "LightMode"}, "Markdown.nb"], 
+    "MainStyleName" -> "LightMode", "FileToolbar" -> "Markdown", 
+    "Options" -> {
+     WindowSize -> {808, 755}, 
+      WindowMargins -> {{316, Automatic}, {Automatic, 50}}, FrontEndVersion -> 
+      "11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, 2018)", 
+      StyleDefinitions -> 
+      FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", CharacterEncoding -> 
+        "UTF-8"]}, "AutoGeneratePackage" -> False, "SavingAction" -> Hold[
+      With[{
+       MarkdownExporter`Private`nb = 
+        EasyIDE`Notebooks`Utilities`$CurrentIDENotebook}, 
+       If[
+        And[
+         Not[
+          Lookup[
+           NotebookInformation[MarkdownExporter`Private`nb], 
+           "ModifiedInMemory"]], 
+         Or[
+          MatchQ[
+           CurrentValue[MarkdownExporter`Private`nb, StyleDefinitions], 
+           FrontEnd`FileName[
+            Blank[], 
+            PatternTest[
+             Blank[String], 
+             StringEndsQ["Markdown.nb"]], 
+            BlankNullSequence[]]], 
+          MemberQ[
+           CurrentValue[MarkdownExporter`Private`nb, StyleDefinitions], 
+           FrontEnd`FileName[
+            Blank[], 
+            PatternTest[
+             Blank[String], 
+             StringEndsQ["Markdown.nb"]], 
+            BlankNullSequence[]], Infinity]]], 
+        Module[{
+         MarkdownExporter`Private`mact = 
+          CurrentValue[$FrontEndSession, {
+            MessageOptions, "KernelMessageAction"}], 
+          MarkdownExporter`Private`evaluator}, 
+         Internal`WithLocalSettings[
+         CurrentValue[$FrontEndSession, {
+            MessageOptions, "KernelMessageAction"}] = "PrintToConsole", 
+          EasyIDE`Notebooks`Utilities`PreemptiveQueued[
+          MarkdownExporter`Private`nb, 
+           EasyIDE`Notebooks`Utilities`WithActiveNotebookPath[
+           MarkdownExporter`Private`nb, 
+            EasyIDE`Dependencies`BTools`Web`NotebookMarkdownSave[
+            MarkdownExporter`Private`nb]]], 
+          CurrentValue[$FrontEndSession, {
+            MessageOptions, "KernelMessageAction"}] = 
+          MarkdownExporter`Private`mact]]]]]}},
+DynamicUpdating->Automatic,
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> 
+     FrontEnd`FileName[{"EasyIDE", "Extensions", "LightMode"}, 
+       "Markdown.nb"]]]}, Visible -> False, 
+  TaggingRules -> {"EasyIDE" -> {"FileViewer" -> {"Visible" -> False}}}, 
+  FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[588, 21, 1475, 35, 186, "Metadata",ExpressionUUID->"a99e0659-0d22-4b05-ac77-ea5e98988b22"],
+Cell[2066, 58, 233, 6, 35, "Text",ExpressionUUID->"d79a26ea-6d12-4fd5-807b-f5606cf6a11d"],
+Cell[2302, 66, 364, 7, 35, "Text",ExpressionUUID->"7420ea25-8f9d-4fc7-9525-497e38f82779"]
+}
+]
+*)
+
