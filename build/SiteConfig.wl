@@ -4,7 +4,7 @@
 {
     "SiteName"->"WLSites",
   	(*"SiteCreator"\[Rule]...,*)
-  	"BootstrapTheme"->"mma",
+  	"BootstrapTheme"->"simplex",
     (*"IncludeSidebar"->True,*)
   	(*"SiteLogo"\[Rule]"site-logo.png",*)
   	(*"BannerImage"->"banner.png",*)
