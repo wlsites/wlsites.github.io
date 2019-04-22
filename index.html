@@ -91,6 +91,43 @@
     </div>
     <!-- /.container -->
   </nav>
+    <style>
+	#banner {
+		position: relative;
+		padding:0;
+		margin:0;
+		width: 100%;
+		padding-bottom: 30%;
+		overflow: hidden;
+		text-align: center;
+		}
+	#banner img {
+		position: absolute;
+		min-width: 100%;
+		min-height: 100%;
+		top: -100%;
+		bottom: -100%;
+		left: -100%;
+		right: -100%;
+		margin: auto;
+	}
+	#banner .banner-text {
+		position: absolute;
+		top: 0;
+		margin-top: auto;
+		margin-bottom: auto;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	div.header-wrapper {
+		position: relative;
+	}
+</style>
+<div id="banner">
+		<img src='./banner.png'/>
+	<div class="container">
+	</div>
+</div>
   <!-- sections -->
     <section id='wolfram-language-sites' class='container wolfram-language-sites-section text-center'>
       <div class='wolfram-language-sites-body'>
@@ -249,5 +286,20 @@ Wolfram Language Reviews is a site for hosting deep dives into how to do complex
   <script src="./theme/js/bootstrap.min.js"></script>
   <!-- Custom Theme JavaScript -->
   <script src="./theme/js/grayscale.js"></script>
+<script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o);
+    a.async = 1;
+    a.src = g;
+    m = s.getElementsByTagName(o)[0];
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-103560228-3', 'auto');
+  ga('send', 'pageview');
+</script>
 </body>
 </html>

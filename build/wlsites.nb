@@ -1,19 +1,12 @@
-(* Content-type: application/vnd.wolfram.mathematica *)
-
-(*** Wolfram Notebook File ***)
-(* http://www.wolfram.com/nb *)
-
-(* CreatedBy='Mathematica 12.0' *)
-
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[       158,          7]
-NotebookDataLength[      9458,        244]
-NotebookOptionsPosition[      5192,        136]
-NotebookOutlinePosition[      9505,        246]
-CellTagsIndexPosition[      9462,        243]
+NotebookDataPosition[         0,          0]
+NotebookDataLength[      7219,        185]
+NotebookOptionsPosition[      4723,        120]
+NotebookOutlinePosition[      7108,        180]
+CellTagsIndexPosition[      7065,        177]
 WindowTitle->EasyIDE: wlsites
 WindowFrame->Normal*)
 
@@ -43,14 +36,10 @@ Cell[BoxData[
      RowBox[{
       RowBox[{"\"\<SiteLogo\>\"", "\[Rule]", "\"\<site-logo.png\>\""}], ","}],
       "*)"}], "\n", "  \t", 
-    RowBox[{"(*", 
-     RowBox[{
-      RowBox[{"\"\<BannerImage\>\"", "->", "\"\<banner.png\>\""}], ","}], 
-     "*)"}], "\n", "  \t", 
-    RowBox[{"(*", 
-     RowBox[{
-      RowBox[{"\"\<BannerHeight\>\"", "\[Rule]", 
-       RowBox[{"Scaled", "[", ".2", "]"}]}], ","}], "*)"}], "\n", "  \t", 
+    RowBox[{"\"\<BannerImage\>\"", "->", "\"\<banner.png\>\""}], ",", "\n", 
+    "  \t", 
+    RowBox[{"\"\<BannerHeight\>\"", "->", 
+     RowBox[{"Scaled", "[", ".3", "]"}]}], ",", "\n", "  \t", 
     RowBox[{"(*", 
      RowBox[{
       RowBox[{"\"\<PrettyPrint\>\"", "->", "True"}], ","}], "*)"}], 
@@ -91,10 +80,8 @@ Cell[BoxData[
     RowBox[{"(*", " ", 
      RowBox[{"use", " ", "tipue", " ", "search"}], " ", "*)"}], "\n", "  \t", 
     
-    RowBox[{"(*", 
-     RowBox[{
-      RowBox[{"\"\<GoogleAnalytics\>\"", "->", "\"\<UA-000000000-0\>\""}], 
-      ","}], "*)"}], 
+    RowBox[{"\"\<GoogleAnalytics\>\"", "->", "\"\<UA-103560228-3\>\""}], ",", 
+    
     RowBox[{"(*", " ", 
      RowBox[{"link", " ", "to", " ", "Google", " ", "analytics"}], " ", 
      "*)"}], "\n", "  \t", 
@@ -128,11 +115,8 @@ Cell[BoxData[
          "  \t\t\t\t\t", "}"}]}], "*)"}], 
       RowBox[{"(*", " ", 
        RowBox[{"options", " ", "for", " ", "tipue", " ", "search"}], " ", 
-       "*)"}], "\n", "  \t\t\t", "}"}]}]}], "\n", "  \t", "}"}]}]], "Code",
- CellChangeTimes->{{3.764907760014077*^9, 3.764907761283392*^9}, {
-  3.764907976085621*^9, 3.7649079823228083`*^9}, {3.764908022412174*^9, 
-  3.764908121504691*^9}},ExpressionUUID->"20574bf2-184d-43aa-a1d6-\
-f783bcf97633"]
+       "*)"}], "\n", "  \t\t\t", "}"}]}]}], "\n", "  \t", "}"}]}]], "Code",Exp\
+ressionUUID->"4f08780c-93e2-4a80-8ac3-b723dc1cd1b1"]
 },
 NotebookEventActions->{{"MenuCommand", "Save"} :> 
   EasyIDE`Notebooks`Manipulation`IDESave[
@@ -150,21 +134,25 @@ TaggingRules->{
        "File" -> 
         "/Users/Mark/Documents/GitHub/wlsites/build/content/pages/About.nb"}, 
       "SiteConfig.wl" -> {
-       "File" -> "/Users/Mark/Documents/GitHub/wlsites/build/SiteConfig.wl"}},
-     "FileViewer" -> {"Visible" -> True}, "Toolbars" -> {"Column" -> GridBox[{{
+       "File" -> "/Users/Mark/Documents/GitHub/wlsites/build/SiteConfig.wl"}, 
+      "index" -> {
+       "File" -> 
+        "/Users/Mark/Documents/GitHub/wlsites/build/output/index.html"}}, 
+    "FileViewer" -> {"Visible" -> False}, "Toolbars" -> {"Column" -> GridBox[{{
           GridBox[{{
              PaneBox["", ImageSize -> {0, 15}], 
              ButtonBox[
              "", BaseStyle -> "ToolbarShowButton", ButtonData -> "Package"]}},
             BaseStyle -> "ToolbarCell"]}}, BaseStyle -> "Toolbars"], 
       "Tags" -> {}, "Cells" -> {}}, 
-    "Project" -> {"Directory" -> "/Users/Mark/Documents/GitHub/wlsites/"}, 
+    "Project" -> {
+     "Directory" -> "/Users/Mark/Documents/GitHub/wlsites/build/"}, 
     "ActiveTab" -> "SiteConfig.wl", "StyleSheet" -> 
     FrontEnd`FileName[{"EasyIDE", "Extensions", "LightMode"}, "Package.nb"], 
     "MainStyleName" -> "LightMode", "FileToolbar" -> "Package", 
     "Options" -> {
      WindowSize -> {808, 755}, 
-      WindowMargins -> {{52, Automatic}, {Automatic, 4}}, Visible -> False, 
+      WindowMargins -> {{108, Automatic}, {Automatic, 24}}, Visible -> False, 
       FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
       StyleDefinitions -> "Package.nb"}, "AutoGeneratePackage" -> False, 
     "SavingAction" -> None}},
@@ -175,61 +163,7 @@ StyleDefinitions->Notebook[{
     StyleData[
     StyleDefinitions -> 
      FrontEnd`FileName[{"EasyIDE", "Extensions", "LightMode"}, 
-       "Package.nb"]]], 
-   Cell[
-    CellGroupData[{
-      Cell[
-      "FileViewerStyles", "Subsubsubsubsection", 
-       CellGroupingRules -> {"SectionGrouping", 200}, CellTags -> 
-       "FileViewerStyles"], 
-      Cell[
-       StyleData["Title"], CellMargins -> {{217, Inherited}, {10, 30}}], 
-      Cell[
-       StyleData["Chapter"], CellMargins -> {{217, Inherited}, {10, 15}}], 
-      Cell[
-       StyleData["Subchapter"], CellMargins -> {{253, Inherited}, {8, 20}}], 
-      Cell[
-       StyleData["Section"], CellMargins -> {{217, Inherited}, {8, 18}}], 
-      Cell[
-       StyleData["Subsection"], 
-       CellMargins -> {{240.34765625, 3.}, {8., 20.}}], 
-      Cell[
-       StyleData["Subsubsection"], 
-       CellMargins -> {{256, Inherited}, {8, 12}}], 
-      Cell[
-       StyleData["Subsubsubsection"], 
-       CellMargins -> {{256, Inherited}, {2, 10}}], 
-      Cell[
-       StyleData["Subsubsubsubsection"], 
-       CellMargins -> {{256, Inherited}, {2, 10}}], 
-      Cell[
-       StyleData["Input"], CellMargins -> {{256, 10}, {5, 8}}], 
-      Cell[
-       StyleData["Code"], CellMargins -> {{256, 10}, {10, 10}}], 
-      Cell[
-       StyleData["Output"], CellMargins -> {{256, 10}, {12, 5}}], 
-      Cell[
-       StyleData["Text"], CellMargins -> {{256, 10}, {7, 8}}], 
-      Cell[
-       StyleData["Item"], CellMargins -> {{271, 10}, {4, 8}}], 
-      Cell[
-       StyleData["ItemParagraph"], CellMargins -> {{271, 10}, {4, 1}}], 
-      Cell[
-       StyleData["Subitem"], CellMargins -> {{295, 12}, {4, 4}}], 
-      Cell[
-       StyleData["SubitemParagraph"], CellMargins -> {{295, 12}, {4, 1}}], 
-      Cell[
-       StyleData["Echo"], 
-       CellMargins -> {{256, Inherited}, {Inherited, Inherited}}], 
-      Cell[
-       StyleData["Print"], 
-       CellMargins -> {{256, Inherited}, {Inherited, Inherited}}], 
-      Cell[
-       StyleData["PrintTemporary"], 
-       CellMargins -> {{250, Inherited}, {Inherited, Inherited}}], 
-      Cell[
-       StyleData["CellInsertionPointCell"], CellMargins -> {{207, 0}, {0, 0}},
-        Magnification -> 1]}, Closed]]}, Visible -> False, 
+       "Package.nb"]]]}, Visible -> False, 
   TaggingRules -> {"EasyIDE" -> {"FileViewer" -> {"Visible" -> False}}}, 
   FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
   StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
@@ -245,7 +179,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[588, 21, 4600, 113, 701, "Code",ExpressionUUID->"20574bf2-184d-43aa-a1d6-f783bcf97633"]
+Cell[430, 14, 4289, 104, 701, "Code",ExpressionUUID->"4f08780c-93e2-4a80-8ac3-b723dc1cd1b1"]
 }
 ]
 *)
